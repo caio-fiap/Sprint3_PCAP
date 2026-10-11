@@ -33,4 +33,4 @@ python src/gerar_graficos.py                  # gráficos e diagramas em docs
 
 ## Observações
 
-Detalhes do projeto e imagens estão no arquivo pdf, disponível no repositório
+Detalhes do projeto e imagens estão no arquivo pdf e na pasta `docs`, disponíveis no repositório
