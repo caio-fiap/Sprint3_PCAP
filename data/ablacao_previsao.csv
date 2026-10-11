@@ -1,0 +1,5 @@
+margem_seguranca,previsao,pico_rede_medio_kw,min_sobrecarga_medio,execucoes_com_sobrecarga,msgs_set_profile_medio,execucoes
+0.95,nao,97.88,0.0,0,52.1,30
+0.95,sim,98.72,0.17,1,46.7,30
+1.0,nao,102.8,48.83,30,45.0,30
+1.0,sim,103.71,53.5,30,41.1,30

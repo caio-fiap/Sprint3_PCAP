@@ -1,0 +1,122 @@
+{"hora": "00:00", "de": "CP01", "para": "CENTRAL", "msg": [2, "00001", "BootNotification", {"chargePointVendor": "GoodWe", "chargePointModel": "HCA G2 (simulado)"}]}
+{"hora": "00:00", "de": "CP02", "para": "CENTRAL", "msg": [2, "00002", "BootNotification", {"chargePointVendor": "GoodWe", "chargePointModel": "HCA G2 (simulado)"}]}
+{"hora": "00:00", "de": "CP03", "para": "CENTRAL", "msg": [2, "00003", "BootNotification", {"chargePointVendor": "ABB", "chargePointModel": "AC genérico (simulado)"}]}
+{"hora": "00:00", "de": "CP04", "para": "CENTRAL", "msg": [2, "00004", "BootNotification", {"chargePointVendor": "WEG", "chargePointModel": "AC genérico (simulado)"}]}
+{"hora": "00:00", "de": "CP05", "para": "CENTRAL", "msg": [2, "00005", "BootNotification", {"chargePointVendor": "Genérico OCPP", "chargePointModel": "AC 11 kW (simulado)"}]}
+{"hora": "00:00", "de": "CP06", "para": "CENTRAL", "msg": [2, "00006", "BootNotification", {"chargePointVendor": "Genérico OCPP", "chargePointModel": "AC 11 kW (simulado)"}]}
+{"hora": "09:00", "de": "CP01", "para": "CENTRAL", "msg": [2, "00007", "StartTransaction", {"connectorId": 1, "transactionId": 1, "meterStart": 0}]}
+{"hora": "09:00", "de": "CP01", "para": "CENTRAL", "msg": [2, "00008", "MeterValues", {"transactionId": 1, "energia_kWh": 1.833, "potencia_kW": 22.0}]}
+{"hora": "09:15", "de": "CP01", "para": "CENTRAL", "msg": [2, "00009", "MeterValues", {"transactionId": 1, "energia_kWh": 7.333, "potencia_kW": 22.0}]}
+{"hora": "09:30", "de": "CP03", "para": "CENTRAL", "msg": [2, "00010", "StartTransaction", {"connectorId": 1, "transactionId": 2, "meterStart": 0}]}
+{"hora": "09:30", "de": "CP01", "para": "CENTRAL", "msg": [2, "00011", "MeterValues", {"transactionId": 1, "energia_kWh": 12.833, "potencia_kW": 22.0}]}
+{"hora": "09:30", "de": "CP03", "para": "CENTRAL", "msg": [2, "00012", "MeterValues", {"transactionId": 2, "energia_kWh": 1.833, "potencia_kW": 22.0}]}
+{"hora": "09:45", "de": "CP01", "para": "CENTRAL", "msg": [2, "00013", "MeterValues", {"transactionId": 1, "energia_kWh": 18.333, "potencia_kW": 22.0}]}
+{"hora": "09:45", "de": "CP03", "para": "CENTRAL", "msg": [2, "00014", "MeterValues", {"transactionId": 2, "energia_kWh": 7.333, "potencia_kW": 22.0}]}
+{"hora": "10:00", "de": "CP01", "para": "CENTRAL", "msg": [2, "00015", "MeterValues", {"transactionId": 1, "energia_kWh": 23.833, "potencia_kW": 22.0}]}
+{"hora": "10:00", "de": "CP03", "para": "CENTRAL", "msg": [2, "00016", "MeterValues", {"transactionId": 2, "energia_kWh": 12.833, "potencia_kW": 22.0}]}
+{"hora": "10:15", "de": "CP04", "para": "CENTRAL", "msg": [2, "00017", "StartTransaction", {"connectorId": 1, "transactionId": 3, "meterStart": 0}]}
+{"hora": "10:15", "de": "CP01", "para": "CENTRAL", "msg": [2, "00018", "MeterValues", {"transactionId": 1, "energia_kWh": 29.333, "potencia_kW": 22.0}]}
+{"hora": "10:15", "de": "CP03", "para": "CENTRAL", "msg": [2, "00019", "MeterValues", {"transactionId": 2, "energia_kWh": 18.333, "potencia_kW": 22.0}]}
+{"hora": "10:15", "de": "CP04", "para": "CENTRAL", "msg": [2, "00020", "MeterValues", {"transactionId": 3, "energia_kWh": 1.833, "potencia_kW": 22.0}]}
+{"hora": "10:20", "de": "CP01", "para": "CENTRAL", "msg": [2, "00021", "StopTransaction", {"transactionId": 1, "energia_kWh": 30.0}]}
+{"hora": "10:30", "de": "CP03", "para": "CENTRAL", "msg": [2, "00022", "MeterValues", {"transactionId": 2, "energia_kWh": 23.833, "potencia_kW": 22.0}]}
+{"hora": "10:30", "de": "CP04", "para": "CENTRAL", "msg": [2, "00023", "MeterValues", {"transactionId": 3, "energia_kWh": 7.333, "potencia_kW": 22.0}]}
+{"hora": "10:35", "de": "CP03", "para": "CENTRAL", "msg": [2, "00024", "StopTransaction", {"transactionId": 2, "energia_kWh": 25.0}]}
+{"hora": "10:45", "de": "CP04", "para": "CENTRAL", "msg": [2, "00025", "MeterValues", {"transactionId": 3, "energia_kWh": 12.833, "potencia_kW": 22.0}]}
+{"hora": "11:00", "de": "CP02", "para": "CENTRAL", "msg": [2, "00026", "StartTransaction", {"connectorId": 1, "transactionId": 4, "meterStart": 0}]}
+{"hora": "11:00", "de": "CP02", "para": "CENTRAL", "msg": [2, "00027", "MeterValues", {"transactionId": 4, "energia_kWh": 1.833, "potencia_kW": 22.0}]}
+{"hora": "11:00", "de": "CP04", "para": "CENTRAL", "msg": [2, "00028", "MeterValues", {"transactionId": 3, "energia_kWh": 18.333, "potencia_kW": 22.0}]}
+{"hora": "11:15", "de": "CP02", "para": "CENTRAL", "msg": [2, "00029", "MeterValues", {"transactionId": 4, "energia_kWh": 7.333, "potencia_kW": 22.0}]}
+{"hora": "11:15", "de": "CP04", "para": "CENTRAL", "msg": [2, "00030", "MeterValues", {"transactionId": 3, "energia_kWh": 23.833, "potencia_kW": 22.0}]}
+{"hora": "11:30", "de": "CP02", "para": "CENTRAL", "msg": [2, "00031", "MeterValues", {"transactionId": 4, "energia_kWh": 12.833, "potencia_kW": 22.0}]}
+{"hora": "11:30", "de": "CP04", "para": "CENTRAL", "msg": [2, "00032", "MeterValues", {"transactionId": 3, "energia_kWh": 29.333, "potencia_kW": 22.0}]}
+{"hora": "11:45", "de": "CP02", "para": "CENTRAL", "msg": [2, "00033", "MeterValues", {"transactionId": 4, "energia_kWh": 18.333, "potencia_kW": 22.0}]}
+{"hora": "11:45", "de": "CP04", "para": "CENTRAL", "msg": [2, "00034", "MeterValues", {"transactionId": 3, "energia_kWh": 34.833, "potencia_kW": 22.0}]}
+{"hora": "11:50", "de": "CP02", "para": "CENTRAL", "msg": [2, "00035", "StopTransaction", {"transactionId": 4, "energia_kWh": 20.0}]}
+{"hora": "11:50", "de": "CP04", "para": "CENTRAL", "msg": [2, "00036", "StopTransaction", {"transactionId": 3, "energia_kWh": 35.0}]}
+{"hora": "12:00", "de": "CP05", "para": "CENTRAL", "msg": [2, "00037", "StartTransaction", {"connectorId": 1, "transactionId": 5, "meterStart": 0}]}
+{"hora": "12:00", "de": "CP05", "para": "CENTRAL", "msg": [2, "00038", "MeterValues", {"transactionId": 5, "energia_kWh": 0.917, "potencia_kW": 11.0}]}
+{"hora": "12:15", "de": "CP05", "para": "CENTRAL", "msg": [2, "00039", "MeterValues", {"transactionId": 5, "energia_kWh": 3.667, "potencia_kW": 11.0}]}
+{"hora": "12:30", "de": "CP06", "para": "CENTRAL", "msg": [2, "00040", "StartTransaction", {"connectorId": 1, "transactionId": 6, "meterStart": 0}]}
+{"hora": "12:30", "de": "CP05", "para": "CENTRAL", "msg": [2, "00041", "MeterValues", {"transactionId": 5, "energia_kWh": 6.417, "potencia_kW": 11.0}]}
+{"hora": "12:30", "de": "CP06", "para": "CENTRAL", "msg": [2, "00042", "MeterValues", {"transactionId": 6, "energia_kWh": 0.917, "potencia_kW": 11.0}]}
+{"hora": "12:45", "de": "CP05", "para": "CENTRAL", "msg": [2, "00043", "MeterValues", {"transactionId": 5, "energia_kWh": 9.167, "potencia_kW": 11.0}]}
+{"hora": "12:45", "de": "CP06", "para": "CENTRAL", "msg": [2, "00044", "MeterValues", {"transactionId": 6, "energia_kWh": 3.667, "potencia_kW": 11.0}]}
+{"hora": "13:00", "de": "CP05", "para": "CENTRAL", "msg": [2, "00045", "MeterValues", {"transactionId": 5, "energia_kWh": 11.917, "potencia_kW": 11.0}]}
+{"hora": "13:00", "de": "CP06", "para": "CENTRAL", "msg": [2, "00046", "MeterValues", {"transactionId": 6, "energia_kWh": 6.417, "potencia_kW": 11.0}]}
+{"hora": "13:15", "de": "CP05", "para": "CENTRAL", "msg": [2, "00047", "MeterValues", {"transactionId": 5, "energia_kWh": 14.667, "potencia_kW": 11.0}]}
+{"hora": "13:15", "de": "CP06", "para": "CENTRAL", "msg": [2, "00048", "MeterValues", {"transactionId": 6, "energia_kWh": 9.167, "potencia_kW": 11.0}]}
+{"hora": "13:20", "de": "CP05", "para": "CENTRAL", "msg": [2, "00049", "StopTransaction", {"transactionId": 5, "energia_kWh": 15.0}]}
+{"hora": "13:30", "de": "CP01", "para": "CENTRAL", "msg": [2, "00050", "StartTransaction", {"connectorId": 1, "transactionId": 7, "meterStart": 0}]}
+{"hora": "13:30", "de": "CP01", "para": "CENTRAL", "msg": [2, "00051", "MeterValues", {"transactionId": 7, "energia_kWh": 1.833, "potencia_kW": 22.0}]}
+{"hora": "13:30", "de": "CP06", "para": "CENTRAL", "msg": [2, "00052", "MeterValues", {"transactionId": 6, "energia_kWh": 11.917, "potencia_kW": 11.0}]}
+{"hora": "13:45", "de": "CP01", "para": "CENTRAL", "msg": [2, "00053", "MeterValues", {"transactionId": 7, "energia_kWh": 7.333, "potencia_kW": 22.0}]}
+{"hora": "13:45", "de": "CP06", "para": "CENTRAL", "msg": [2, "00054", "MeterValues", {"transactionId": 6, "energia_kWh": 14.667, "potencia_kW": 11.0}]}
+{"hora": "14:00", "de": "CP03", "para": "CENTRAL", "msg": [2, "00055", "StartTransaction", {"connectorId": 1, "transactionId": 8, "meterStart": 0}]}
+{"hora": "14:00", "de": "CP01", "para": "CENTRAL", "msg": [2, "00056", "MeterValues", {"transactionId": 7, "energia_kWh": 12.833, "potencia_kW": 22.0}]}
+{"hora": "14:00", "de": "CP03", "para": "CENTRAL", "msg": [2, "00057", "MeterValues", {"transactionId": 8, "energia_kWh": 1.833, "potencia_kW": 22.0}]}
+{"hora": "14:00", "de": "CP06", "para": "CENTRAL", "msg": [2, "00058", "MeterValues", {"transactionId": 6, "energia_kWh": 17.417, "potencia_kW": 11.0}]}
+{"hora": "14:05", "de": "CP06", "para": "CENTRAL", "msg": [2, "00059", "StopTransaction", {"transactionId": 6, "energia_kWh": 18.0}]}
+{"hora": "14:15", "de": "CP01", "para": "CENTRAL", "msg": [2, "00060", "MeterValues", {"transactionId": 7, "energia_kWh": 18.333, "potencia_kW": 22.0}]}
+{"hora": "14:15", "de": "CP03", "para": "CENTRAL", "msg": [2, "00061", "MeterValues", {"transactionId": 8, "energia_kWh": 7.333, "potencia_kW": 22.0}]}
+{"hora": "14:30", "de": "CP01", "para": "CENTRAL", "msg": [2, "00062", "MeterValues", {"transactionId": 7, "energia_kWh": 23.833, "potencia_kW": 22.0}]}
+{"hora": "14:30", "de": "CP03", "para": "CENTRAL", "msg": [2, "00063", "MeterValues", {"transactionId": 8, "energia_kWh": 12.833, "potencia_kW": 22.0}]}
+{"hora": "14:45", "de": "CP01", "para": "CENTRAL", "msg": [2, "00064", "MeterValues", {"transactionId": 7, "energia_kWh": 28.0, "potencia_kW": 6.0}]}
+{"hora": "14:45", "de": "CP01", "para": "CENTRAL", "msg": [2, "00065", "StopTransaction", {"transactionId": 7, "energia_kWh": 28.0}]}
+{"hora": "14:45", "de": "CP03", "para": "CENTRAL", "msg": [2, "00066", "MeterValues", {"transactionId": 8, "energia_kWh": 18.333, "potencia_kW": 22.0}]}
+{"hora": "15:00", "de": "CP03", "para": "CENTRAL", "msg": [2, "00067", "MeterValues", {"transactionId": 8, "energia_kWh": 23.833, "potencia_kW": 22.0}]}
+{"hora": "15:15", "de": "CP03", "para": "CENTRAL", "msg": [2, "00068", "MeterValues", {"transactionId": 8, "energia_kWh": 29.333, "potencia_kW": 22.0}]}
+{"hora": "15:30", "de": "CP03", "para": "CENTRAL", "msg": [2, "00069", "MeterValues", {"transactionId": 8, "energia_kWh": 34.833, "potencia_kW": 22.0}]}
+{"hora": "15:45", "de": "CP03", "para": "CENTRAL", "msg": [2, "00070", "MeterValues", {"transactionId": 8, "energia_kWh": 40.0, "potencia_kW": 18.0}]}
+{"hora": "15:45", "de": "CP03", "para": "CENTRAL", "msg": [2, "00071", "StopTransaction", {"transactionId": 8, "energia_kWh": 40.0}]}
+{"hora": "17:30", "de": "CP02", "para": "CENTRAL", "msg": [2, "00072", "StartTransaction", {"connectorId": 1, "transactionId": 9, "meterStart": 0}]}
+{"hora": "17:30", "de": "CP02", "para": "CENTRAL", "msg": [2, "00073", "MeterValues", {"transactionId": 9, "energia_kWh": 1.833, "potencia_kW": 22.0}]}
+{"hora": "17:45", "de": "CP04", "para": "CENTRAL", "msg": [2, "00074", "StartTransaction", {"connectorId": 1, "transactionId": 10, "meterStart": 0}]}
+{"hora": "17:45", "de": "CP02", "para": "CENTRAL", "msg": [2, "00075", "MeterValues", {"transactionId": 9, "energia_kWh": 7.333, "potencia_kW": 22.0}]}
+{"hora": "17:45", "de": "CP04", "para": "CENTRAL", "msg": [2, "00076", "MeterValues", {"transactionId": 10, "energia_kWh": 1.833, "potencia_kW": 22.0}]}
+{"hora": "18:00", "de": "CP01", "para": "CENTRAL", "msg": [2, "00077", "StartTransaction", {"connectorId": 1, "transactionId": 11, "meterStart": 0}]}
+{"hora": "18:00", "de": "CP01", "para": "CENTRAL", "msg": [2, "00078", "MeterValues", {"transactionId": 11, "energia_kWh": 1.833, "potencia_kW": 22.0}]}
+{"hora": "18:00", "de": "CP02", "para": "CENTRAL", "msg": [2, "00079", "MeterValues", {"transactionId": 9, "energia_kWh": 12.833, "potencia_kW": 22.0}]}
+{"hora": "18:00", "de": "CP04", "para": "CENTRAL", "msg": [2, "00080", "MeterValues", {"transactionId": 10, "energia_kWh": 7.333, "potencia_kW": 22.0}]}
+{"hora": "18:15", "de": "CP05", "para": "CENTRAL", "msg": [2, "00081", "StartTransaction", {"connectorId": 1, "transactionId": 12, "meterStart": 0}]}
+{"hora": "18:15", "de": "CP01", "para": "CENTRAL", "msg": [2, "00082", "MeterValues", {"transactionId": 11, "energia_kWh": 7.333, "potencia_kW": 22.0}]}
+{"hora": "18:15", "de": "CP02", "para": "CENTRAL", "msg": [2, "00083", "MeterValues", {"transactionId": 9, "energia_kWh": 18.333, "potencia_kW": 22.0}]}
+{"hora": "18:15", "de": "CP04", "para": "CENTRAL", "msg": [2, "00084", "MeterValues", {"transactionId": 10, "energia_kWh": 12.833, "potencia_kW": 22.0}]}
+{"hora": "18:15", "de": "CP05", "para": "CENTRAL", "msg": [2, "00085", "MeterValues", {"transactionId": 12, "energia_kWh": 0.917, "potencia_kW": 11.0}]}
+{"hora": "18:30", "de": "CP06", "para": "CENTRAL", "msg": [2, "00086", "StartTransaction", {"connectorId": 1, "transactionId": 13, "meterStart": 0}]}
+{"hora": "18:30", "de": "CP01", "para": "CENTRAL", "msg": [2, "00087", "MeterValues", {"transactionId": 11, "energia_kWh": 12.833, "potencia_kW": 22.0}]}
+{"hora": "18:30", "de": "CP02", "para": "CENTRAL", "msg": [2, "00088", "MeterValues", {"transactionId": 9, "energia_kWh": 23.833, "potencia_kW": 22.0}]}
+{"hora": "18:30", "de": "CP04", "para": "CENTRAL", "msg": [2, "00089", "MeterValues", {"transactionId": 10, "energia_kWh": 18.333, "potencia_kW": 22.0}]}
+{"hora": "18:30", "de": "CP05", "para": "CENTRAL", "msg": [2, "00090", "MeterValues", {"transactionId": 12, "energia_kWh": 3.667, "potencia_kW": 11.0}]}
+{"hora": "18:30", "de": "CP06", "para": "CENTRAL", "msg": [2, "00091", "MeterValues", {"transactionId": 13, "energia_kWh": 0.917, "potencia_kW": 11.0}]}
+{"hora": "18:45", "de": "CP03", "para": "CENTRAL", "msg": [2, "00092", "StartTransaction", {"connectorId": 1, "transactionId": 14, "meterStart": 0}]}
+{"hora": "18:45", "de": "CP01", "para": "CENTRAL", "msg": [2, "00093", "MeterValues", {"transactionId": 11, "energia_kWh": 18.333, "potencia_kW": 22.0}]}
+{"hora": "18:45", "de": "CP02", "para": "CENTRAL", "msg": [2, "00094", "MeterValues", {"transactionId": 9, "energia_kWh": 29.333, "potencia_kW": 22.0}]}
+{"hora": "18:45", "de": "CP03", "para": "CENTRAL", "msg": [2, "00095", "MeterValues", {"transactionId": 14, "energia_kWh": 1.833, "potencia_kW": 22.0}]}
+{"hora": "18:45", "de": "CP04", "para": "CENTRAL", "msg": [2, "00096", "MeterValues", {"transactionId": 10, "energia_kWh": 23.833, "potencia_kW": 22.0}]}
+{"hora": "18:45", "de": "CP05", "para": "CENTRAL", "msg": [2, "00097", "MeterValues", {"transactionId": 12, "energia_kWh": 6.417, "potencia_kW": 11.0}]}
+{"hora": "18:45", "de": "CP06", "para": "CENTRAL", "msg": [2, "00098", "MeterValues", {"transactionId": 13, "energia_kWh": 3.667, "potencia_kW": 11.0}]}
+{"hora": "18:55", "de": "CP02", "para": "CENTRAL", "msg": [2, "00099", "StopTransaction", {"transactionId": 9, "energia_kWh": 32.0}]}
+{"hora": "19:00", "de": "CP01", "para": "CENTRAL", "msg": [2, "00100", "MeterValues", {"transactionId": 11, "energia_kWh": 23.833, "potencia_kW": 22.0}]}
+{"hora": "19:00", "de": "CP03", "para": "CENTRAL", "msg": [2, "00101", "MeterValues", {"transactionId": 14, "energia_kWh": 7.333, "potencia_kW": 22.0}]}
+{"hora": "19:00", "de": "CP04", "para": "CENTRAL", "msg": [2, "00102", "MeterValues", {"transactionId": 10, "energia_kWh": 29.333, "potencia_kW": 22.0}]}
+{"hora": "19:00", "de": "CP05", "para": "CENTRAL", "msg": [2, "00103", "MeterValues", {"transactionId": 12, "energia_kWh": 9.167, "potencia_kW": 11.0}]}
+{"hora": "19:00", "de": "CP06", "para": "CENTRAL", "msg": [2, "00104", "MeterValues", {"transactionId": 13, "energia_kWh": 6.417, "potencia_kW": 11.0}]}
+{"hora": "19:05", "de": "CP04", "para": "CENTRAL", "msg": [2, "00105", "StopTransaction", {"transactionId": 10, "energia_kWh": 30.0}]}
+{"hora": "19:15", "de": "CP01", "para": "CENTRAL", "msg": [2, "00106", "MeterValues", {"transactionId": 11, "energia_kWh": 29.333, "potencia_kW": 22.0}]}
+{"hora": "19:15", "de": "CP03", "para": "CENTRAL", "msg": [2, "00107", "MeterValues", {"transactionId": 14, "energia_kWh": 12.833, "potencia_kW": 22.0}]}
+{"hora": "19:15", "de": "CP05", "para": "CENTRAL", "msg": [2, "00108", "MeterValues", {"transactionId": 12, "energia_kWh": 11.917, "potencia_kW": 11.0}]}
+{"hora": "19:15", "de": "CP06", "para": "CENTRAL", "msg": [2, "00109", "MeterValues", {"transactionId": 13, "energia_kWh": 9.167, "potencia_kW": 11.0}]}
+{"hora": "19:30", "de": "CP01", "para": "CENTRAL", "msg": [2, "00110", "MeterValues", {"transactionId": 11, "energia_kWh": 34.833, "potencia_kW": 22.0}]}
+{"hora": "19:30", "de": "CP03", "para": "CENTRAL", "msg": [2, "00111", "MeterValues", {"transactionId": 14, "energia_kWh": 18.333, "potencia_kW": 22.0}]}
+{"hora": "19:30", "de": "CP05", "para": "CENTRAL", "msg": [2, "00112", "MeterValues", {"transactionId": 12, "energia_kWh": 14.667, "potencia_kW": 11.0}]}
+{"hora": "19:30", "de": "CP06", "para": "CENTRAL", "msg": [2, "00113", "MeterValues", {"transactionId": 13, "energia_kWh": 11.917, "potencia_kW": 11.0}]}
+{"hora": "19:35", "de": "CP01", "para": "CENTRAL", "msg": [2, "00114", "StopTransaction", {"transactionId": 11, "energia_kWh": 35.0}]}
+{"hora": "19:45", "de": "CP03", "para": "CENTRAL", "msg": [2, "00115", "MeterValues", {"transactionId": 14, "energia_kWh": 23.833, "potencia_kW": 22.0}]}
+{"hora": "19:45", "de": "CP05", "para": "CENTRAL", "msg": [2, "00116", "MeterValues", {"transactionId": 12, "energia_kWh": 17.417, "potencia_kW": 11.0}]}
+{"hora": "19:45", "de": "CP06", "para": "CENTRAL", "msg": [2, "00117", "MeterValues", {"transactionId": 13, "energia_kWh": 14.667, "potencia_kW": 11.0}]}
+{"hora": "19:50", "de": "CP06", "para": "CENTRAL", "msg": [2, "00118", "StopTransaction", {"transactionId": 13, "energia_kWh": 15.0}]}
+{"hora": "20:00", "de": "CP03", "para": "CENTRAL", "msg": [2, "00119", "MeterValues", {"transactionId": 14, "energia_kWh": 28.0, "potencia_kW": 6.0}]}
+{"hora": "20:00", "de": "CP03", "para": "CENTRAL", "msg": [2, "00120", "StopTransaction", {"transactionId": 14, "energia_kWh": 28.0}]}
+{"hora": "20:00", "de": "CP05", "para": "CENTRAL", "msg": [2, "00121", "MeterValues", {"transactionId": 12, "energia_kWh": 20.0, "potencia_kW": 9.0}]}
+{"hora": "20:00", "de": "CP05", "para": "CENTRAL", "msg": [2, "00122", "StopTransaction", {"transactionId": 12, "energia_kWh": 20.0}]}

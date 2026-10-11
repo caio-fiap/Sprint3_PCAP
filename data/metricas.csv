@@ -1,0 +1,3 @@
+modo,pico_rede_kw,minutos_sobrecarga,energia_acima_limite_kwh,energia_ev_kwh,sessoes_concluidas,sessoes_total,receita_rs,aproveitamento_solar_pct,parcela_renovavel_pct,duracao_media_sessao_min,msgs_ocpp,msgs_set_profile,energia_rede_kwh,energia_consumida_kwh,solar_gerado_kwh
+sem_controle,145.97,80,22.73,371.0,14,14,483.3,98.3,36.5,88.2,122,0,724.9,1141.1,423.5
+chargegrid,98.19,0,0.0,371.0,14,14,483.3,99.3,37.3,95.4,185,56,715.6,1141.1,423.5
